@@ -7,7 +7,7 @@ To get started with the Course Selling App API, follow these steps:
 
 1. Clone the repository:
 
-2. Install dependencies:
+2. Install dependencies: npm install
 
 3. Set up environment variables:
 - Create a `.env` file in the root directory of the project.
