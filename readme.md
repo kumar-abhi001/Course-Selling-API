@@ -13,12 +13,16 @@ To get started with the Course Selling App API, follow these steps:
 - Create a `.env` file in the root directory of the project.
 - Add the following environment variables to the `.env` file:
   ```
-  DATABASE_URL=<your-database-url>
+  DATABASE_URL=< DB_HOST = localhost, // PostgreSQL host
+              DB_USER = , // PostgreSQL username
+              DB_PASSWORD =, // PostgreSQL password
+              DB_DATABASE =, // PostgreSQL database name
+              DB_PORT: 5432>
   JWT_SECRET=<your-secret-key>
   ```
 Replace `<your-database-url>` with the URL of your PostgreSQL database, and `<your-secret-key>` with a secret key for JWT token generation.
 
-4. Start the server:
+4. Start the server: npm start or node app.js
 
 
 
